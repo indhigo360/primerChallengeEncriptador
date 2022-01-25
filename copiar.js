@@ -5,4 +5,5 @@ btnCopy.addEventListener("click",function(event){
     var texto = document.querySelector("#msg");
     texto.select();
     document.execCommand('copy');
+    console.log 
 });
