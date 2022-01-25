@@ -13,6 +13,5 @@ btnDecode.addEventListener("click", function(event){
 	event.preventDefault();
 	var texto = document.querySelector("#input-texto").value;
 	texto = desencriptar(texto);
-	document.getElementById("msg").value = texto;
-	
+	document.getElementById("msg").value = texto;	
 });
