@@ -14,4 +14,6 @@ btnEncode.addEventListener("click", function(event){
 	var texto = document.querySelector("#input-texto").value;
 	texto = encriptar(texto);
 	document.getElementById("msg").value = texto;
+
+	
 });
